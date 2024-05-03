@@ -32,6 +32,23 @@
     <title>
       Aibak
     </title>
+
+
+    <style>
+      .iframe-container {
+          position: relative;
+          width: 100%;
+          overflow: hidden;
+          padding-top: 56.25%; /* 16:9 aspect ratio */
+      }
+      .iframe-container iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 2000px;
+          height: 100%;
+      }
+  </style>
   </head>
   <body>
     <div class="site-mobile-menu site-navbar-target">
@@ -121,21 +138,7 @@
 
 
     
-    <style>
-        .iframe-container {
-            position: relative;
-            width: 100%;
-            overflow: hidden;
-            padding-top: 56.25%; /* 16:9 aspect ratio */
-        }
-        .iframe-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 1800px;
-            height: 100%;
-        }
-    </style>
+   
     
     <div class="iframe-container">
         <iframe src="https://aibak.aurify.ae/" title="Iframe Example" allowfullscreen></iframe>
